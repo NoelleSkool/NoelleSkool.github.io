@@ -16,14 +16,15 @@
  <!-- Heading 1, make a link and use "index.html" for href attribute value -->
 <header class="row">
     <div class="one-third column">
-       <h1>
+       <h1 class="brand">
         <a href="index.html">Simply Flat</a>
         </h1>
     </div>
     
     <!-- Unordered list -->
     <nav class="two-thirds column">
-        <ul>
+        <nav class="nav">
+        <ul class="pull-right">
           <li><a href="index.html">Home</a></li>
            <!-- Link, make href attribute value = "index.html" -->
             <li><a href="about.html">About Us</a></li>
@@ -33,12 +34,15 @@
             <li><a href="blog.html">Blog</a></li>
             <!-- Link, make href attribute value = "blog.html" -->
             <li><a href="contact.html">Contact Us</a></li></ul>
+        </nav>
     </nav>
 </header>
 <!-- Link, make href attribute value = "contact.html" -->   
 <!-- Heading 1 -->
 
-   <section>
+   <section class="page-header">
+       <div class="container">
+           <div class="row">
          <h1>This theme is flat, fun and easy to customize.</h1>
         
         <!-- Paragraph -->
@@ -52,19 +56,30 @@
     
     <!-- Image, path to image is "images/home-banner.png", enter "Laptop" for alt attribute value -->
     <img src="images/home-banner.png" alt="laptop" class="img-responsive">
-    </section>
+           </div>
+       </div>
+               </section>
     <!-- Heading 3, make "Find Out More" a link and use "#" for href attribute value -->
-    <section><h3>This theme is fully responsive. Well of course it is. This is great! Find Out More
+    <section class="message">
+        <div class="container">
+        
+        <h3>This theme is fully responsive. Well of course it is. This is great! Find Out More
             </h3>
+        </div>
         </section>
 <!-- Heading 1 -->
-<section class="row"><h1>You should you choose Simply Flat</h1>
+<section class="main-content-top">
+    <div class="container">
+        <div class="row">
+    <h1>You should you choose Simply Flat</h1>
     <div class="one-third column">
     <!-- Heading 3 -->
     <h3>Fully Responsive</h3>
     
     <!-- Paragraph -->
     <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+            </div>
+        </div>
     </div>
     <div class="one-third column">
     <!-- Heading 3 -->
@@ -83,7 +98,9 @@
     </div>
     </section>
 <!-- Heading 2 -->
-<section class="row">
+<section class="main-content-bottom">
+    <div class="container">
+    <div class="row">
   <div class="one-half column">
    <h2>Showcase all your work</h2>
     
@@ -92,6 +109,8 @@
         </p>
     <!-- Link, use "#" for href attribute value -->
     <a href="#">See Our Clients</a>
+        </div>
+        </div>
     </div>
     <!-- Paragraph -->
    <div class="one-half column">
@@ -126,9 +145,13 @@
     </div>
 </section>
 <!-- Image, path to image is "http://lorempixel.com/400/275/business/", enter "Business meeting" for alt attribute value -->
-<section class="row">
+<section class="blog-tease">
+    <div class="container">
+    <div class="row">
    <div class="one-third column">
     <img src="http://lorempixel.com/400/275/business/" alt="business meeting" class="img-responsive">
+        </div>
+        </div>
     </div>
     <!-- Heading 2 -->
     <div class="two-thirds column">
@@ -145,7 +168,7 @@
 <!-- Heading 4 -->
 <footer class="row">
    
-   <div>
+   <div class="one-third column">
        <h4>Simply Flat</h4>
         
         <!-- Paragraph -->
@@ -153,7 +176,7 @@
             </p>
    </div>
     <!-- Heading 4 -->
-    <div>
+    <div class="one-third column">
         <h4>Testimonials</h4>
         
         <!-- Paragraph -->
@@ -162,7 +185,7 @@
     </div>
     
     <!-- Heading 4 -->
-    <div>
+    <div class="one-third column">
         <h4>Contact Us</h4>
         
         <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
@@ -175,7 +198,7 @@
     
     <!-- Heading 4 -->
   <div class="one-whole column">
-        <h4> We're Social</h4>
+        <h4 class="social"> We're Social</h4>
    </div>
     
     <!-- Social media icons go here - You will add them later -->

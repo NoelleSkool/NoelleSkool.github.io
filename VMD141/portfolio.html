@@ -5,9 +5,9 @@
     <title>
     Simply Flat
 </title>
+<link rel="stylesheet" href="css/style.css">
 
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
-<link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -15,14 +15,15 @@
  <!-- Heading 1, make a link and use "index.html" for href attribute value -->
 <header class="row">
     <div class="one-third column">
-       <h1>
+       <h1 class="brand">
         <a href="index.html">Simply Flat</a>
         </h1>
     </div>
     
     <!-- Unordered list -->
     <nav class="two-thirds column">
-        <ul>
+        <nav class="nav">
+        <ul class="pull-right">
           <li><a href="index.html">Home</a></li>
            <!-- Link, make href attribute value = "index.html" -->
             <li><a href="about.html">About Us</a></li>
@@ -32,24 +33,34 @@
             <li><a href="blog.html">Blog</a></li>
             <!-- Link, make href attribute value = "blog.html" -->
             <li><a href="contact.html">Contact Us</a></li></ul>
+        </nav>
     </nav>
 </header>
 <!-- Link, make href attribute value = "contact.html" -->   
 
 
 <!-- Heading 1 -->
-<section><h1>Portfolio</h1>
+<section class="page header">
+      <div class="container">
+  <div class="row">
+    <h1>Portfolio</h1>
     
     <!-- Paragraph -->
     <p>Vel tempor referrentur neglegentur cu, mel ut enim iudicabit intellegat, ea putent salutandi quo. Sonet putant graecis ut nec. Magna laoreet consequuntur vis referrentur neglegentur.</p>
-    </section>
+          </div>
+    </div>
+      </section>
 <!-- Image, path to image is "http://lorempixel.com/460/307/technics/1", enter "Technical" for alt attribute value -->
 
-<section class="row">
-   <div class="one-half">
+<section>
+      <div class="container">
+  <div class="row">
+   <div class="one-half column">
+       <div class="portfolio-item">
     <img src="http://lorempixel.com/460/307/technics/1" alt="technical" class="img-responsive">
         <!-- Heading 2 -->
-        <h2>Hover Style</h2>
+       <div class="portfolio-title">
+           <h2>Hover Style</h2>
         
         <!-- Paragraph -->
         <p>Vel ei melius corrumpit. Et paulo aliquip cum. Dicit aperiam mel an, an eos delenit suavitate, eos alia audire no. Graeci aliquip ad cum.</p>
@@ -57,12 +68,17 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+           </div>
+       </div>
+      
 </div>
     
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/2", enter "Technical" for alt attribute value -->
-   <div class="one-half">
+   <div class="one-half column">
+       <div class="portfolio-item">
          <img src="http://lorempixel.com/460/307/technics/2" alt="technical" class="img-responsive">
         <!-- Heading 2 -->
+           <div class="portfolio-title">
         <h2>Hover Style</h2>
         
         <!-- Paragraph -->
@@ -71,13 +87,17 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+           </div>
+       </div>
     </div>
     
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/3", enter "Technical" for alt attribute value -->
-    <div class="one-half">
+    <div class="one-half column">
+        <div class="portfolio-item">
        <img src="http://lorempixel.com/460/307/technics/3" alt="technical" class="img-responsive">
         
         <!-- Heading 2 -->
+            <div class="portfolio-title">
         <h2>Hover Style</h2>
         
         <!-- Paragraph -->
@@ -86,12 +106,16 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+            </div>
+        </div>
         </div>
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/4", enter "Technical" for alt attribute value -->
     
-    <div class="one-half">
+    <div class="one-half column">
+        <div class="portfolio-item">
         <img src="http://lorempixel.com/460/307/technics/4" alt="technical" class="img-responsive">
         <!-- Heading 2 -->
+            <div class="portfolio-title">
         <h2>Hover Style</h2>
         
         <!-- Paragraph -->
@@ -100,14 +124,18 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+            </div>
+        </div>
     </div>
     
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/5", enter "Technical" for alt attribute value -->
-   <div class="one-half">
+   <div class="one-half column">
+       <div class="portfolio-item">
          <img src="http://lorempixel.com/460/307/technics/5" alt="technical" class="img-responsive">
         
         <!-- Heading 2 -->
-        Hover Style
+           <div class="portfolio-title">
+           <h2>Hover Style</h2>
         
         <!-- Paragraph -->
         Vel ei melius corrumpit. Et paulo aliquip cum. Dicit aperiam mel an, an eos delenit suavitate, eos alia audire no. Graeci aliquip ad cum.
@@ -115,13 +143,17 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+           </div>
+       </div>
     </div>
     
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/6", enter "Technical" for alt attribute value -->
-    <div class="one-half">
+    <div class="one-half column">
+        <div class="portfolio-item">
         <img src="http://lorempixel.com/460/307/technics/6" alt="technical" class="img-responsive">
         
         <!-- Heading 2 -->
+            <div class="portfolio-title">
         <h2>Hover Style</h2>
         
         <!-- Paragraph -->
@@ -129,13 +161,17 @@
             
             Read More
             </p>
+            </div>
+        </div>
     </div>
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/7", enter "Technical" for alt attribute value -->
-    <div class="one-half">
+    <div class="one-half column">
+        <div class="portfolio-item">
        <img src="http://lorempixel.com/460/307/technics/7" alt="technical" class="img-responsive">
         
         <!-- Heading 2 -->
-        Hover Style
+            <div class="portfolio-title">
+            <h2>Hover Style</h2>
         
         <!-- Paragraph -->
         Vel ei melius corrumpit. Et paulo aliquip cum. Dicit aperiam mel an, an eos delenit suavitate, eos alia audire no. Graeci aliquip ad cum.
@@ -143,12 +179,16 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+            </div>
+        </div>
         </div>
     <!-- Image, path to image is "http://lorempixel.com/460/307/technics/8", enter "Technical" for alt attribute value -->
-   <div class="one-half">
+   <div class="one-half column">
+       <div class="portfolio-item">
          <img src="http://lorempixel.com/460/307/technics/8" alt="technical" class="img-responsive">
         
         <!-- Heading 2 -->
+           <div class="portfolio-title">
         <h2>Hover Style</h2>
         
         <!-- Paragraph -->
@@ -157,12 +197,16 @@
         <!-- Link, use "#" for href attribute value -->
         <a href="#
         ">Read More</a>
+           </div>
+       </div>
     </div>
+      </div>
+          </div>
     </section>
 <!-- Heading 4 -->
 <footer class="row">
    
-   <div>
+   <div class="one-third column">
        <h4>Simply Flat</h4>
         
         <!-- Paragraph -->
@@ -170,7 +214,7 @@
             </p>
    </div>
     <!-- Heading 4 -->
-    <div>
+    <div class="one-third column">
         <h4>Testimonials</h4>
         
         <!-- Paragraph -->
@@ -179,7 +223,7 @@
     </div>
     
     <!-- Heading 4 -->
-    <div>
+    <div class="one-third column">
         <h4>Contact Us</h4>
         
         <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
@@ -192,7 +236,7 @@
     
     <!-- Heading 4 -->
   <div class="one-whole column">
-        <h4> We're Social</h4>
+         <h4 class="social"> We're Social</h4>
    </div>
     
     <!-- Social media icons go here - You will add them later -->
@@ -210,6 +254,3 @@
     </div>
 </body>
 </html>
-
-
-
