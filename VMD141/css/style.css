@@ -1,11 +1,28 @@
 body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
     background-color: #999;
 }
 
-h1,
-h2,
-h3,
+h1 {
+    font-size: 38px;
+    color:373737;
+}
+
+h2 {
+    font-size: 32px;
+    color:373737;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 200;
+    color:373737;
+}
+
 h4 {
+    font-size: 18px;
     color:373737;
 }
 
@@ -13,6 +30,9 @@ h4 {
     color: #373737;
 }
 
+p {
+    font-size: 18px;
+}
 /*multiple pages*/
 
 .page-header {
@@ -23,8 +43,13 @@ h4 {
 
 }
 
+.page-header h1 {
+    font-weight: bold;
+}
+
 .page-header p {
     padding-left: 15px;
+    font-size: 26px;
 }
 
 /* home page */
@@ -32,6 +57,21 @@ h4 {
 .page-header.home {
     margin-bottom: 0;
 }
+
+.page-header.home a {
+    padding-left: 35px;
+}
+
+.page-header.home p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.page-header.home h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
 
 .message  {
     padding-top: 60px;
@@ -49,8 +89,20 @@ h4 {
     margin-bottom: 70px;
 }
 
+.contentbox h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
 .contentbox li {
     color: #373737;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.contentbox i {
+    color: #5adae2;
 }
 
 .contentbox-beige {
@@ -78,8 +130,23 @@ h4 {
 .tile {
     background-color: #5adae2;
     color: #FFF;
-    padding: 10px;
     margin-bottom: 10px;
+    margin: 0 0 5px 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tile p {
+    margin: 0;
+}
+.tile i {
+    font-size: 108px;
+}
+
+.main-content-top i {
+    color: #5adae2;
+    vertical-align: -10px; 
+    /* center icon to heading */
 }
 
 .main-content-top h1 {
@@ -110,6 +177,47 @@ h4 {
     margin-bottom: 20px;
 }
 
+.team-member h1 {
+    Text-align: center;
+}
+
+
+.team-member ul {
+    text-align: right;
+}
+
+.team-member li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.team-member a {
+    color: #1e1f1f;
+}
+
+
+.team-member i {
+    background-color: #edecea;
+    Color: #1e1f1f;
+    font-size: 16px;
+    padding: 3px;
+    margin: 0;
+    width: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+.address, .address a {
+    color: #1e1f1f;
+}
+
+.address li {
+    padding-bottom: 5px;
+}
+
+
 /*portfolio page*/
 
 .portfolio-item {
@@ -124,11 +232,40 @@ h4 {
 
 .info li {
     display: inline-block;
+    font-size: 14px;
+    background-color: #edecea;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
-.sidebar {
-    padding: 10px;
+.info i {
+    color: #1e1f1f;
+    display: inline-block;
+    width: 22px;
+    text-align: center;
 }
+
+
+.sidebar {
+    padding: 30px;
+}
+
+.sidebar p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #1e1f1f;
+    padding-bottom: 10px;
+}
+
+.sidebar a {
+    color: #1e1f1f;  
+}
+
+.sidebar li {
+    font-size: 14px;
+}
+
 
 .recent-entries img {
     float: left;
@@ -209,9 +346,18 @@ nav ul li {
     display: inline-block;
 }
 
+.nav li {
+    font-size: 18px;
+}
+
 ul {
     list-style: none;
-    padding: 0px;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .img-responsive {
@@ -224,6 +370,7 @@ ul {
 .brand {
     padding-top: 45px;
     padding-bottom: 45px;
+    font-size: 22px;
 }
 
 .nav {
@@ -240,6 +387,22 @@ ul {
     text-align: center;
 }
 
+.social-list {
+    text-align: center;
+}
+
+.social-list li {
+     display: inline-block;   
+}
+
+.social-list i {
+    background-color: #2D2D2D;
+    margin: 5px 10px 0 0;
+    padding: 3px;
+    width: 40px;
+    display: inline-block;
+}
+
 .footer {
     background-color: #373737;
 }
@@ -250,6 +413,14 @@ ul {
 
 .footer p {
     color: #999;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.footer ul {
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .footer-bottom {
