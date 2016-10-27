@@ -44,8 +44,31 @@ h2 {
     padding-left: 90px;
 }
 
+a {
+    display: inline-block;
+    background-color: #12bfff;
+    transition: background-color .8s ease-in-out;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+
 p {
     line-height: 2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+.btn {
+display: inline;
+font-family: 'Creepster', cursive;
+font-size: 30px;
+background-color: #12bfff; 
+color: greenyellow;
+padding: 5px 5px;
+margin-right: 10px;
+margin-bottom: 10px;
 }
